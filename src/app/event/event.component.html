@@ -1,2 +1,9 @@
 <h3 class="title">{{ param }} Event</h3>
-<div class="content"></div>
+<div class="content">
+  <div>
+    <button mat-flat-button color="accent" class="add-btn" (click)="addEventTime()">
+      Add Event Time +
+    </button>
+  </div>
+  <app-times-table></app-times-table>
+</div>

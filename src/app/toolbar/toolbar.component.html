@@ -14,16 +14,12 @@
     Edit
   </mat-slide-toggle> -->
   <button mat-button [matMenuTriggerFor]="menu">
-    <mat-icon>event</mat-icon>
+    <mat-icon class="icon-lg">event</mat-icon>
   </button>
   <mat-menu #menu="matMenu">
     <button mat-menu-item [routerLink]="['/event/freestyle']">Freestyle</button>
-    <button mat-menu-item [routerLink]="['/event/backstroke']">
-      Backstroke
-    </button>
-    <button mat-menu-item [routerLink]="['/event/breaststroke']">
-      Breaststroke
-    </button>
+    <button mat-menu-item [routerLink]="['/event/backstroke']">Backstroke</button>
+    <button mat-menu-item [routerLink]="['/event/breaststroke']">Breaststroke</button>
     <button mat-menu-item [routerLink]="['/event/butterfly']">Butterfly</button>
   </mat-menu>
 </mat-toolbar>

@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": "kara",
+      "name": "Kara Hwang",
+      "team": "Krakens",
+      "gender": "female",
+      "freestyleBest": 30.28,
+      "backstrokeBest": 53.37,
+      "breaststrokeBest": "N/A",
+      "butterflyBest": "N/A"
+    },
+    {
+      "id": "leia",
+      "name": "Leia Hwang",
+      "team": "Unicorns",
+      "gender": "female",
+      "freestyleBest": 44.87,
+      "backstrokeBest": "N/A",
+      "breaststrokeBest": "N/A",
+      "butterflyBest": "N/A"
+    }
+  ],
+  "times": [
+    {
+      "id": "kara",
+      "event": "freestyle",
+      "date": "2023-06-10",
+      "age": 8,
+      "time": 39.33,
+      "competition": "Time trials"
+    },
+    {
+      "id": "kara",
+      "event": "backstroke",
+      "date": "2023-06-10",
+      "age": 8,
+      "time": 56.32,
+      "competition": "Time trials"
+    },
+    {
+      "id": "kara",
+      "event": "freestyle",
+      "date": "2023-06-14",
+      "age": 8,
+      "time": 34.87,
+      "competition": "Potomac Crossing"
+    },
+    {
+      "id": "kara",
+      "event": "backstroke",
+      "date": "2023-06-14",
+      "age": 8,
+      "time": 53.37,
+      "competition": "Potomac Crossing"
+    },
+    {
+      "id": "kara",
+      "event": "freestyle",
+      "date": "2023-06-17",
+      "age": 8,
+      "time": 33.11,
+      "competition": "Potomac Station"
+    },
+    {
+      "id": "kara",
+      "event": "freestyle",
+      "date": "2023-06-24",
+      "age": 6,
+      "time": 30.28,
+      "competition": "Ida Lee Eeliminators"
+    },
+    {
+      "id": "leia",
+      "event": "freestyle",
+      "date": "2023-06-10",
+      "age": 6,
+      "time": 46.32,
+      "competition": "Time trials"
+    },
+    {
+      "id": "leia",
+      "event": "freestyle",
+      "date": "2023-06-14",
+      "age": 8,
+      "time": 44.87,
+      "competition": "Potomac Crossing"
+    }
+  ]
+}

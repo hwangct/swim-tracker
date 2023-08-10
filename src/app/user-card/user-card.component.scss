@@ -1,0 +1,36 @@
+@import '@angular/material/theming';
+
+mat-card {
+  display: grid;
+  min-width: 280px;
+
+  mat-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  mat-card-title {
+    color: #c2185b;
+  }
+}
+
+.action-btns {
+  position: absolute;
+  top: 0.5em;
+  right: 1em;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1.5em;
+  font-size: large;
+
+  mat-icon {
+    vertical-align: text-bottom;
+    padding-left: 0.25em;
+    color: #ff4081;
+  }
+}
